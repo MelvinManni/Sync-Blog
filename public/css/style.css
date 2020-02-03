@@ -1,0 +1,265 @@
+@font-face{
+    font-family: 'vibes';
+    src: url("../fonts/fonts/Great_Vibes/GreatVibes-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'cookie';
+    src: url("../fonts/fonts/Cookie/Cookie-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'pt-sans';
+    src: url("../fonts/fonts/PT_Sans/PTSans-Regular.ttf");
+}
+
+
+@font-face{
+    font-family: 'lato';
+    src: url("../fonts/fonts/Lato/Lato-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'lato';
+    src: url("../fonts/fonts/Lato/Lato-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face{
+    font-family:'lato';
+    src: url("../fonts/fonts/Lato/Lato-Black.ttf");
+    font-weight: 900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.inline{
+    display: inline;
+}
+
+body{
+    width: 100%;
+    word-wrap: break-word;
+}
+section{
+    padding: 0 20px;
+}
+
+body{
+    font-family: 'pt-sans';
+    font-size: 13.5px;
+}
+
+.absolute-footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    height: max-content;
+    align-items: center;
+    padding: 5px 0;
+    width: 100%;
+    background-color: #cdb599 ;
+    color: #101820;
+    border-radius: 2px;
+}
+
+.nav-logo{
+    margin-left: 20px;
+}
+
+.logo-1{  
+    font-family: 'vibes';
+    font-size: 35px;
+}
+
+.logo-2{
+    font-family: 'cookie';
+    font-size: 19px;
+    padding-left: 45px;
+    position: relative;
+    bottom: 10px;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: 'lato';
+    font-weight: 400;
+    color: #101820 ;
+    margin-left: 35px;
+}
+
+.nav-link:hover{
+    color: #545555;
+}
+
+
+.footer{
+    font-family: 'lato';
+    font-weight: 400;
+    position: relative;
+    bottom: 0;
+    padding: 5px 0;
+    border-radius: 2px;
+    color: #101820;
+    text-align: center;
+    font-size: 15px;
+    background-color: #cdb599;
+}
+
+
+.social-link{
+    text-decoration: none;
+}
+
+.social-link p{
+    color: white;
+    display: inline;
+    text-transform: capitalize;
+
+}
+
+.social-link i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.facebook{
+    color: #4267B2;
+    width: fit-content;
+}
+
+.twitter{
+    color: #4267B2;
+}
+
+.instagram{
+    color: #F77737;
+}
+
+.top-social{
+    padding: 4px 0;
+    background-color: #443d34;
+}
+
+.social-items{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+input{
+    width: 100%;
+    display: block;
+    border: none;
+    box-shadow: none;
+    padding: 5px 0;
+}
+
+input[type=text]{
+    border:1px solid gray;
+}
+
+input[type=url]{
+    border:1px solid gray;
+}
+
+textarea{ 
+    width: 100%;
+    display: block; 
+    border-radius: 3px;
+}
+
+input[type=submit]{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    background-color: teal;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+#compose-submit{
+    width: 80px;
+    height: 30px;
+    margin: 10px 0;
+    color: white;
+    font-size: 16px;
+    background-color: teal;
+    border: none;
+    border-radius: 0px;
+}
+
+.title{
+    font-family: 'lato';
+    font-size: 20px;
+    font-weight: 800;
+    color: #7a6d5c;
+    text-transform: capitalize;
+}
+
+.content{
+    font-family: 'pt-sans';
+    color: #101820 ;
+}
+
+.readMore{
+    text-decoration: none;
+}
+
+.post-section{
+    padding: 20px 5%;
+}
+
+.post-img{
+    border-radius: 2px;
+}
+
+.post-title{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.post-content{
+    margin-top: 20px;
+}
+
+
+
+@media all and (max-width:720px){
+    img{
+        width: 100%;
+    }
+}
